@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  </head>
+  <body>
+      <header>
+        <div class="contaimner mx-auto">
+          <nav class="flex items-center justify-between  bg-white shadow-md">
+            <!-- Logo va menyu -->
+            <div class="flex items-center">
+               
+                
+                    <img src="./Каталог бургер.png" alt="">
+                
+                
+                <img src="./Лого.png" alt="Logo" class="h-10 ">
+            </div>
+    
+            <!-- Menyular -->
+            <div class="hidden md:flex space-x-6">
+                <a href="#" class="text-gray-600 hover:text-blue-500">Покупателям</a>
+                <a href="#" class="text-gray-600 hover:text-blue-500">Поставщикам</a>
+                <a href="#" class="text-gray-600 hover:text-blue-500">Частые вопросы</a>
+            </div>
+    
+            <!-- Qidiruv paneli -->
+            <div class="flex items-center space-x-2">
+                <select class="border border-gray-300 text-gray-600 rounded-md p-2 bg-red-300">
+                    <option>Везде</option>
+                    <option>kiyimlar</option>
+                    <!-- boshqa opsiyalar -->
+                </select>
+                <input type="text" placeholder="Поиск" class="border border-gray-300 rounded-md p-2 w-full focus:outline-none focus:ring-2 focus:ring-blue-500">
+                
+            </div>
+    
+            <!-- Foydalanuvchi oynasi -->
+            <div class="flex items-center space-x-4 mr-8">
+                <button class="text-gray-600"><i class='bx bx-user'></i> Войти</button>
+                <button class="text-gray-600">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12l5 5L20 7"></path>
+                    </svg>
+                </button>
+                <button class="text-gray-600">
+                  <i class='bx bxs-cart' style='color:#000' ></i>
+                </button>
+
+            </div>
+
+        </nav>
+         <div class=" slide_sektion w-[100%] flex justify-between gap-5 pr-8">
+            <div class=""></div>
+            <div class="section-card">
+              <div class="card-top"><img src="image 15.png" alt=""></div>
+              <div class="card-bottom"><img src="image 16.png" alt=""></div>
+            </div>
+         </div>
+        </div>
+      </header> 
+      
+
+    
+
+
+    <section class="discount_products_box"></section>
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
